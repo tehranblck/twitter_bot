@@ -1,0 +1,2 @@
+client id= "RUhqdVFOMUlrOWhpSXJ1cV8xWGg6MTpjaQ"
+client secret="ZHODKr8RcBn6K3i03t-7cYJbXsGZBzA5-Jfh5EbfNuae9IUcy5"
