@@ -23,7 +23,7 @@ async function tweetMessage() {
         const selectedTags = tags.slice(0, 3).join(' '); // İlk 3 etiketi birleştir
 
         // Dinamik tweet içeriği
-        const tweetContent = `🚀 Saytyarat: Your partner in fast, affordable, and professional website solutions! 🌐 Whether you're a startup or an established business, we craft websites that fit your needs and budget. Check us out: https://saytyarat.com/ ⏰ Time: ${timeString} ${selectedTags}`;
+        const tweetContent = `🌍 Supporting sustainability at #COP29! Saytyarat offers fast, affordable web solutions for eco-conscious brands. Check us out at https://saytyarat.com/ #COP29BAKU #AZERBAIJAN ⏰ Time: ${timeString} ${selectedTags}`;
 
         // Tweet atma işlemi
         const tweet = await client.v2.tweet(tweetContent);
@@ -34,7 +34,7 @@ async function tweetMessage() {
 }
 
 // Tweet atma aralığı
-const interval = 3 * (60 * 60 * 1000); // 3 saat
+const interval = 3 * (60 * 60 * 1000); // 4 saat
 
 setInterval(tweetMessage, interval);
 
